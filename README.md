@@ -45,17 +45,24 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+## Environment
+
+Place .env file on root
+
+Add following variables
 
 ```bash
-# unit tests
-$ npm run test
+PORT: Add port in .env file
+MONGO_URI: Add MONGO_URI to connect to mongo
+```
 
-# e2e tests
-$ npm run test:e2e
+## Swagger
 
-# test coverage
-$ npm run test:cov
+```bash
+
+$ npm run start
+
+access http://localhost:${PORT}/api to get swagger docs
 ```
 
 ## Support
